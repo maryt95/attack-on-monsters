@@ -1,0 +1,86 @@
+body{
+	background-size: 100%;
+}
+
+button{
+	background-color: white;
+	border-radius: 5px;
+	border-color: red;
+	font-family: arial;
+	text-transform: uppercase;
+	font-size: 10px;
+	margin: 5px;
+}
+
+.center {
+
+	width: 70%;
+	padding: 20px;
+	padding-right: 5px;
+
+}
+
+
+#goblin1 {
+	margin-top: 110px;
+	margin-left: 40px;
+	float: left;
+	text-align: center;
+	height: 100px;
+	width: 20%;
+}
+
+#goblin2 {
+	margin-top: 70px;
+	float: left;
+	text-align: center;
+	height: 100px;
+	width: 20%;
+}
+
+#goblin3 {
+	margin-top: 60px;
+	float: left;
+	text-align: center;
+	height: 100px;
+	width: 20%;
+}
+
+#goblin4 {
+	margin-top: 40px;
+	float: left;
+	text-align: center;
+	height: 100px;
+	width:20%;
+}
+
+#pg1 {
+
+	float: right;
+	text-align: center;
+	height: 100px;
+	width: 20%;
+}
+
+#pg2 {
+
+	text-align: center;
+	float: right;
+	height: 20px;
+	width: 20%;
+}
+
+#pg3 {
+
+	text-align: center;
+	float: right;
+	height: 100px;
+	width: 20%;
+}
+
+#pg4 {
+	text-align: center;
+	float: right;
+	height: 100px;
+	width: 20%;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<title>	</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="script/prova.js"></script>
+	<body onload="init()" background="img/background2.jpg">
+
+	<body>
+		<div class="center" style="margin-left: 200px">
+
+
+				<div id="goblin1" style="background-color: white; width: 170px; height: 80px; border-radius: 10px; margin-right: 10px; padding: 5px;">
+					<span text-align="center" style="font-family:arial; color: red;"><b><i>Drykt</i></b></span><br>
+					<img src="img/love_potion.gif" width="30px" height="30px" alt="goblin1"><span float="left"style="font-family:arial; font-size: 12px">HP: </span><span id="HP_goblin1" float="left"style="font-family:arial; font-size: 12px">20</span>
+					<img src="img/magic_potion.gif" width="30px" height="30px" alt="goblin1"><span float="left"style="font-family:arial; font-size: 12px">MP: </span><span id="MP_goblin1" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<br>
+					<button onclick="attacca_goblin()" style="float=left; margin-right: 10px;">Attacca</button><button onclick="magia_goblin()" style="float=left">Magia</button>
+					<img src="img/goblin1.gif" width="100px" height="140px" alt="goblin1"><br>
+				</div>
+				<div id="goblin2" style="background-color: white; width: 170px; height: 80px; border-radius: 10px; margin-right: 10px; padding: 5px;">
+					<span text-align="center" style="font-family:arial; color: red;"><b><i>Tialx</i></b></span><br>
+					<img src="img/love_potion.gif" width="30px" height="30px" alt="goblin2"><span float="left"style="font-family:arial; font-size: 12px">HP: </span><span id="HP_goblin2" float="left"style="font-family:arial; font-size: 12px">200</span>
+					<img src="img/magic_potion.gif" width="30px" height="30px" alt="goblin2"><span float="left"style="font-family:arial; font-size: 12px">MP: </span><span id="MP_goblin2" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<br>
+					<button onclick="attacca_goblin()" style="float=left; margin-right: 10px;">Attacca</button><button onclick="magia_goblin()" style="float=left">Magia</button>
+					<img src="img/goblin1.gif" width="100px" height="140px" alt="goblin2"><br>
+				</div>	
+				<div id="goblin3" style="background-color: white; width: 170px; height: 80px; border-radius: 10px; margin-right: 10px; padding: 5px;">
+					<span text-align="center" style="font-family:arial; color: red;"><b><i>Gruhkal</i></b></span><br>
+					<img src="img/love_potion.gif" width="30px" height="30px" alt="goblin3"><span float="left"style="font-family:arial; font-size: 12px">HP: </span><span id="HP_goblin3" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<img src="img/magic_potion.gif" width="30px" height="30px" alt="goblin3"><span float="left"style="font-family:arial; font-size: 12px">MP: </span><span id="MP_goblin3" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<br>
+					<button onclick="attacca_goblin()" style="float=left; margin-right: 10px;">Attacca</button><button onclick="magia_goblin()" style="float=left">Magia</button>
+					<img src="img/goblin1.gif" width="100px" height="140px" alt="goblin3"><br>
+				</div>
+				<div id="goblin4" style="background-color: white; width: 170px; height: 80px; border-radius: 10px; margin-right: 10px; padding: 5px;">
+					<span text-align="center" style="font-family:arial; color: red;"><b><i>Pladakt</i></b></span><br>
+					<img src="img/love_potion.gif" width="30px" height="30px" alt="goblin4"><span float="left"style="font-family:arial; font-size: 12px">HP: </span><span id="HP_goblin4" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<img src="img/magic_potion.gif" width="30px" height="30px" alt="goblin4"><span float="left"style="font-family:arial; font-size: 12px">MP: </span><span id="MP_goblin4" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<br>
+					<button onclick="attacca_goblin()" style="float=left; margin-right: 10px;">Attacca</button><button onclick="magia_goblin()" style="float=left">Magia</button>
+					<img src="img/goblin1.gif" width="100px" height="140px" alt="goblin4"><br>
+				</div>
+	
+
+
+
+
+
+				<div id="pg1" style="background-color: white; width: 170px; height: 80px; border-radius: 10px; margin-right: 10px; padding: 5px; margin-top: 80px; margin-left: 10px;">
+					<span text-align="center" style="font-family:arial; color: black;"><b><i>Everardus</i></b></span><br>
+					<img src="img/love_potion.gif" width="30px" height="30px" alt="heal"><span float="left"style="font-family:arial; font-size: 12px">HP: </span><span id="HP_personaggio1" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<img src="img/magic_potion.gif" width="30px" height="30px" alt="magic"><span float="left"style="font-family:arial; font-size: 12px">MP: </span><span id="MP_personaggio1" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<br>
+					<button onclick="attacca_personaggio()" style="float=left; margin-right: 10px;">Attacca</button><button onclick="magia_personaggio()" style="float=left">Magia</button>
+					<img src="img/cavaliere.gif" width="70px" height="auto" alt="pg1" style=""><br>
+				</div>
+
+				<div id="pg2" style="background-color: white; width: 170px; height: 80px; border-radius: 10px; margin-right: 10px; margin-top: 120px; padding: 5px; ">
+					<span text-align="center" style="font-family:arial; color: black;"><b><i>Ninette</i></b></span><br>
+					<img src="img/love_potion.gif" width="30px" height="30px" alt="heal"><span float="left"style="font-family:arial; font-size: 12px">HP: </span><span id="HP_personaggio2" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<img src="img/magic_potion.gif" width="30px" height="30px" alt="magic"><span float="left"style="font-family:arial; font-size: 12px">MP: </span><span id="MP_personaggio2" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<br>
+					<button onclick="attacca_personaggio()" style="float=left; margin-right: 10px;">Attacca</button><button onclick="magia_personaggio()" style="float=left">Magia</button>
+					<img src="img/cavaliere.gif" width="70px" height="auto" alt="pg1" style=""><br>
+				</div>
+
+				<div id="pg3" style="background-color: white; width: 170px; height: 80px; border-radius: 10px; margin-right: 20px; padding: 5px; margin-top: 150px;">
+					<span text-align="center" style="font-family:arial; color: black;"><b><i>Joceus</i></b></span><br>
+					<img src="img/love_potion.gif" width="30px" height="30px" alt="heal"><span float="left"style="font-family:arial; font-size: 12px">HP: </span><span id="HP_personaggio3" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<img src="img/magic_potion.gif" width="30px" height="30px" alt="magic"><span float="left"style="font-family:arial; font-size: 12px">MP: </span><span id="MP_personaggio3" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<br>
+					<button onclick="attacca_personaggio()" style="float=left; margin-right: 10px;">Attacca</button><button onclick="magia_personaggio()" style="float=left">Magia</button>
+					<img src="img/cavaliere.gif" width="70px" height="auto" alt="pg1" style=""><br>
+				</div>
+
+				<div id="pg4" style="background-color: white; width: 170px; height: 80px; border-radius: 10px; margin-right: 20px; padding: 5px; margin-top: 130px;">
+					<span text-align="center" style="font-family:arial; color: black;"><b><i>Berolt</i></b></span><br>
+					<img src="img/love_potion.gif" width="30px" height="30px" alt="heal"><span float="left"style="font-family:arial; font-size: 12px">HP: </span><span id="HP_personaggio4" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<img src="img/magic_potion.gif" width="30px" height="30px" alt="magic"><span float="left"style="font-family:arial; font-size: 12px">MP: </span><span id="MP_personaggio4" float="left" style="font-family:arial; font-size: 12px">200</span>
+					<br>
+					<button onclick="attacca_personaggio()" style="float=left; margin-right: 10px;">Attacca</button><button onclick="magia_personaggio()" style="float=left">Magia</button>
+					<img src="img/cavaliere.gif" width="70px" height="auto" alt="pg1" style=""><br>
+				</div>
+			
+			</div>
+			</div>
+		</div>
+	</body>
+</html>
